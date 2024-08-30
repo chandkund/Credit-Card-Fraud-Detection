@@ -29,8 +29,8 @@ The dataset is highly imbalanced, with fraudulent transactions representing only
 To run this project, clone the repository and install the required packages.
 
 ```bash
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+git clone https://github.com/chandkumar/Credit-Card-Fraud-Detection.git
+cd Credit-Card-Fraud-Detection
 pip install -r requirements.txt
 ```
 
@@ -58,14 +58,11 @@ Each model was fine-tuned and evaluated for its ability to detect fraudulent tra
 ## Model Evaluation
 Models were evaluated using the following metrics:
 - **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
 
 The evaluation focused on minimizing false negatives, as missing fraudulent transactions is more critical than misclassifying non-fraudulent ones.
 
 ## Results
-The Random Forest Classifier achieved the highest performance, with an accuracy of 99.9% and a recall of 0.91. This model successfully identified a significant portion of fraudulent transactions while maintaining a low false positive rate.
+Logistic Regression achieved the highest performance, with an accuracy of 93.7%  This model successfully identified a significant portion of fraudulent transactions while maintaining a low false positive rate.
 
 ## Conclusion
 This project demonstrates the application of machine learning models in detecting credit card fraud. By combining different techniques and models, a robust system was developed to enhance financial security.
