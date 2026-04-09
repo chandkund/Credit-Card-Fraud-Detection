@@ -5,7 +5,7 @@ An end-to-end Machine Learning project that detects fraudulent credit card trans
 ---
 
 ## 🚀 Live Demo
-👉 (Add your Streamlit link here after deployment)
+👉 https://chandkund-credit-card-fraud-detection-appapp-sdause.streamlit.app/
 
 ---
 
@@ -39,4 +39,4 @@ This project uses the:
 📥 Download dataset:
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud  
 
-Place it here:
+
